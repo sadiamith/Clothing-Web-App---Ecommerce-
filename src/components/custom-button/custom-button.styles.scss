@@ -1,0 +1,35 @@
+.custom-button {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: hsl(0, 5%, 18%);
+  color: hsl(0, 0%, 80%);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms ease-in;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: hsl(0, 5%, 39%);
+    color: hsl(0, 0%, 80%);
+  }
+
+  &.google-sigin-in {
+    background-color: hsl(217, 93%, 38%);
+    color: hsl(217, 86%, 85%);
+
+    &:hover {
+      background-color: hsl(217, 100%, 49%);
+      border: none;
+    }
+  }
+}
